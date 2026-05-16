@@ -37,9 +37,9 @@ function createHeart() {
 
 setInterval(createHeart, 800);
 
-document.getElementById("nextBtn").addEventListener("click", () => {
+function startMusic() {
   const music = document.getElementById("bgMusic");
-  music.muted = false;
-  music.play();
-});
+  music.play(); // mula main bila user klik
+  showMessage(); // teruskan fungsi mesej awak
+}
 
