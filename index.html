@@ -12,17 +12,17 @@
     <div class="container">
         <div class="text-box">
             <h1>💖 For You My Darling 💖</h1>
-            <button id="nextBtn" onclick="showMessage()">please click here</button>
+            <button id="nextBtn" onclick="showMessage,startMusic()">please click here</button>
             <p id="message"></p>
             <button id="whatsappBtn" onclick="sendWhatsApp()">Continue to WhatsApp</button>
         </div>
     </div>
 
     <script src="script.js"></script>
+<audio id="bgMusic" loop>
+  <source src="Elvis Presley - Can t Help Falling in Love (Lyrics) (1).mp3" type="audio/mpeg">
+</audio>
 
-    <audio autoplay muted>
-        <source src="Elvis Presley - Can t Help Falling in Love (Lyrics) (1).mp3" type="audio/mpeg">
-    </audio>
 </body>
 
 </html>
