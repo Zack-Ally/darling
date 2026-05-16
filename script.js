@@ -36,3 +36,10 @@ function createHeart() {
 }
 
 setInterval(createHeart, 800);
+
+document.getElementById("nextBtn").addEventListener("click", () => {
+  const music = document.getElementById("bgMusic");
+  music.muted = false;
+  music.play();
+});
+
